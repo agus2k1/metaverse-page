@@ -11,7 +11,7 @@ const WorldSign = ({ title, amount, image }) => (
     <h1 className="absolute bottom-[10%] left-[11%] text-lg text-white text-bold">
       {title}
     </h1>
-    <p className="absolute bottom-[33%] left-[38%] text-xs text-white text-normal">
+    <p className="absolute bottom-[33%] left-[38%] text-xs text-secondary-white text-normal">
       + {amount} has joined
     </p>
     <img
